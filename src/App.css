@@ -60,6 +60,23 @@
     color: var(--text-main);
 }
 
+.lang-switch {
+    background: transparent;
+    border: 1px solid var(--accent-gold);
+    color: var(--accent-gold);
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: var(--transition);
+}
+
+.lang-switch:hover {
+    background: var(--accent-gold);
+    color: var(--bg-dark);
+}
+
 /* Hero */
 .hero {
     height: 100vh;
@@ -221,6 +238,10 @@
     position: absolute;
     bottom: 20px;
     right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
 }
 
 .price-tag {
@@ -231,6 +252,25 @@
     border: 1px solid var(--accent-gold);
 }
 
+.btn-buy {
+    background: var(--accent-gold);
+    color: var(--bg-dark);
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: var(--transition);
+    border: 1px solid var(--accent-gold);
+}
+
+.btn-buy:hover {
+    background: var(--text-main);
+    color: var(--bg-dark);
+    border-color: var(--text-main);
+}
+
 .card-info {
     padding: 30px;
     text-align: center;
@@ -238,7 +278,43 @@
 
 .card-info h3 {
     font-size: 1.4rem;
+    margin: 0;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.gender-badge {
+    font-size: 0.65rem;
+    background: var(--accent-gold);
+    color: var(--bg-dark);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.similarity-box {
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 2px solid var(--accent-gold);
+    padding: 10px;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.similarity-text {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #bbb;
+    margin: 0;
+    line-height: 1.4;
 }
 
 .type {
@@ -267,6 +343,19 @@
     text-transform: uppercase;
     color: var(--accent-gold);
     font-weight: 800;
+}
+
+.savings-badge {
+    background: linear-gradient(45deg, var(--accent-gold), #ffcc00);
+    color: var(--bg-dark);
+    font-weight: 800;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 10px auto;
+    display: inline-block;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
+    border: 1px solid white;
 }
 
 .original-name {

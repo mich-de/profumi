@@ -20,7 +20,15 @@ const translations = {
                 savings: "Risparmio Stimato",
                 equivalent: "Equivalente di",
                 originalPrice: "Prezzo Originale",
-                buy: "Acquista su Zara"
+                buy: "Acquista su Zara",
+                sort: {
+                    label: "Ordina per:",
+                    name: "Nome",
+                    original: "Originale",
+                    priceZara: "Prezzo Zara",
+                    priceOriginal: "Prezzo Orig.",
+                    format: "Formato"
+                }
             }
         },
         about: {
@@ -48,7 +56,15 @@ const translations = {
                 savings: "Estimated Savings",
                 equivalent: "Equivalent of",
                 originalPrice: "Original Price",
-                buy: "Buy on Zara"
+                buy: "Buy on Zara",
+                sort: {
+                    label: "Sort by:",
+                    name: "Name",
+                    original: "Original",
+                    priceZara: "Zara Price",
+                    priceOriginal: "Orig. Price",
+                    format: "Format"
+                }
             }
         },
         about: {
@@ -66,6 +82,55 @@ function App() {
     const [scrolled, setScrolled] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);
     const [lang, setLang] = useState('it');
+    const [sortConfig, setSortConfig] = useState({ key: 'name', direction: 'asc' });
+    const cacheBuster = "v=" + new Date().getTime(); // Force cache reload on session start
+
+    const parsePrice = (priceStr) => {
+        if (!priceStr) return 0;
+        const matches = priceStr.match(/(\d+[.,]\d+)/);
+        if (matches) {
+            return parseFloat(matches[1].replace(',', '.'));
+        }
+        return 0;
+    };
+
+    const handleSort = (key) => {
+        setSortConfig(current => ({
+            key,
+            direction: current.key === key && current.direction === 'asc' ? 'desc' : 'asc'
+        }));
+    };
+
+    const sortedPerfumes = [...perfumes].sort((a, b) => {
+        let aValue, bValue;
+
+        switch (sortConfig.key) {
+            case 'priceZara':
+                aValue = parsePrice(a.priceZara);
+                bValue = parsePrice(b.priceZara);
+                break;
+            case 'priceOriginal':
+                aValue = parsePrice(a.priceOriginal);
+                bValue = parsePrice(b.priceOriginal);
+                break;
+            case 'original':
+                aValue = a.original.toLowerCase();
+                bValue = b.original.toLowerCase();
+                break;
+            case 'format':
+                aValue = (a.format || '').toLowerCase();
+                bValue = (b.format || '').toLowerCase();
+                break;
+            case 'name':
+            default:
+                aValue = a.name.toLowerCase();
+                bValue = b.name.toLowerCase();
+        }
+
+        if (aValue < bValue) return sortConfig.direction === 'asc' ? -1 : 1;
+        if (aValue > bValue) return sortConfig.direction === 'asc' ? 1 : -1;
+        return 0;
+    });
 
     const t = (path) => {
         return path.split('.').reduce((obj, key) => obj?.[key], translations[lang]) || path;
@@ -120,17 +185,17 @@ function App() {
                 <div className="hero-visual">
                     <div className="comparison-main">
                         <img
-                            src={`${import.meta.env.BASE_URL}images/zara/vibrant_leather.jpg`}
+                            src={`${import.meta.env.BASE_URL}images/zara/vibrant_leather.jpg?${cacheBuster}`}
                             alt="Vibrant Leather"
                             className="img-zara clickable-img"
-                            onClick={() => openLightbox(`${import.meta.env.BASE_URL}images/zara/vibrant_leather.jpg`)}
+                            onClick={() => openLightbox(`${import.meta.env.BASE_URL}images/zara/vibrant_leather.jpg?${cacheBuster}`)}
                         />
                         <div className="vs">VS</div>
                         <img
-                            src={`${import.meta.env.BASE_URL}images/originals/creed_aventus.png`}
+                            src={`${import.meta.env.BASE_URL}images/originals/creed_aventus.png?${cacheBuster}`}
                             alt="Creed Aventus"
                             className="img-original clickable-img"
-                            onClick={() => openLightbox(`${import.meta.env.BASE_URL}images/originals/creed_aventus.png`)}
+                            onClick={() => openLightbox(`${import.meta.env.BASE_URL}images/originals/creed_aventus.png?${cacheBuster}`)}
                         />
                     </div>
                 </div>
@@ -138,16 +203,51 @@ function App() {
 
             <section id="grid" className="dupe-grid-section">
                 <h2 className="section-title">{t('grid.title')}</h2>
+
+                <div className="sort-toolbar">
+                    <span className="sort-label">{t('grid.card.sort.label')}</span>
+                    <button
+                        className={`sort-btn ${sortConfig.key === 'name' ? 'active' : ''}`}
+                        onClick={() => handleSort('name')}
+                    >
+                        {t('grid.card.sort.name')} {sortConfig.key === 'name' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+                    </button>
+                    <button
+                        className={`sort-btn ${sortConfig.key === 'original' ? 'active' : ''}`}
+                        onClick={() => handleSort('original')}
+                    >
+                        {t('grid.card.sort.original')} {sortConfig.key === 'original' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+                    </button>
+                    <button
+                        className={`sort-btn ${sortConfig.key === 'priceZara' ? 'active' : ''}`}
+                        onClick={() => handleSort('priceZara')}
+                    >
+                        {t('grid.card.sort.priceZara')} {sortConfig.key === 'priceZara' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+                    </button>
+                    <button
+                        className={`sort-btn ${sortConfig.key === 'priceOriginal' ? 'active' : ''}`}
+                        onClick={() => handleSort('priceOriginal')}
+                    >
+                        {t('grid.card.sort.priceOriginal')} {sortConfig.key === 'priceOriginal' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+                    </button>
+                    <button
+                        className={`sort-btn ${sortConfig.key === 'format' ? 'active' : ''}`}
+                        onClick={() => handleSort('format')}
+                    >
+                        {t('grid.card.sort.format')} {sortConfig.key === 'format' && (sortConfig.direction === 'asc' ? '↑' : '↓')}
+                    </button>
+                </div>
+
                 <div className="grid">
-                    {perfumes.map(p => (
+                    {sortedPerfumes.map(p => (
                         <div key={p.id} className="perfume-card">
                             <div className="card-media">
                                 <img
-                                    src={`${import.meta.env.BASE_URL}${p.zaraImg.startsWith('/') ? p.zaraImg.substring(1) : p.zaraImg}`}
+                                    src={`${import.meta.env.BASE_URL}${p.zaraImg.startsWith('/') ? p.zaraImg.substring(1) : p.zaraImg}?${cacheBuster}`}
                                     alt={p.name}
                                     className="zara-thumb clickable-img"
                                     onError={(e) => { e.target.src = `${import.meta.env.BASE_URL}images/placeholder_zara.jpg` }}
-                                    onClick={() => openLightbox(`${import.meta.env.BASE_URL}${p.zaraImg.startsWith('/') ? p.zaraImg.substring(1) : p.zaraImg}`)}
+                                    onClick={() => openLightbox(`${import.meta.env.BASE_URL}${p.zaraImg.startsWith('/') ? p.zaraImg.substring(1) : p.zaraImg}?${cacheBuster}`)}
                                 />
                                 <div className="media-overlay">
                                     <span className="price-tag">{p.priceZara}</span>
@@ -165,8 +265,9 @@ function App() {
                                 </div>
                                 <p className="type">{p.format || t('grid.card.collection')}</p>
 
+
                                 <div className="similarity-box">
-                                    <p className="similarity-text">"{p.similarity}"</p>
+                                    <p className="similarity-text">"{lang === 'en' && p.similarityEn ? p.similarityEn : p.similarity}"</p>
                                 </div>
 
                                 {p.savings && p.savings !== "N/A" && (
@@ -181,11 +282,11 @@ function App() {
                                     <div className="line"></div>
                                 </div>
                                 <img
-                                    src={`${import.meta.env.BASE_URL}${p.originalImg.startsWith('/') ? p.originalImg.substring(1) : p.originalImg}`}
+                                    src={`${import.meta.env.BASE_URL}${p.originalImg.startsWith('/') ? p.originalImg.substring(1) : p.originalImg}?${cacheBuster}`}
                                     alt={p.original}
                                     className="original-thumb clickable-img"
                                     onError={(e) => { e.target.src = `${import.meta.env.BASE_URL}images/placeholder_original.jpg` }}
-                                    onClick={() => openLightbox(`${import.meta.env.BASE_URL}${p.originalImg.startsWith('/') ? p.originalImg.substring(1) : p.originalImg}`)}
+                                    onClick={() => openLightbox(`${import.meta.env.BASE_URL}${p.originalImg.startsWith('/') ? p.originalImg.substring(1) : p.originalImg}?${cacheBuster}`)}
                                 />
                                 <h4 className="original-name">{p.original}</h4>
                                 <p className="original-price">{t('grid.card.originalPrice')}: {p.priceOriginal}</p>

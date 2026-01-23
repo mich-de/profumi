@@ -242,19 +242,19 @@ export const perfumes = [
     },
     {
         id: 16,
-        name: "Zara Man Uomo / Zara Uomo",
+        name: "Zara Man Uomo Winter",
         format: "EDT 100 ml",
-        original: "Paco Rabanne - 1 Million",
+        original: "Rabanne - 1 Million",
         gender: "Uomo",
-        similarity: "Ispirazione “sweet‑spicy‑amber”",
-        similarityEn: "Sweet-spicy-amber inspiration",
+        similarity: "Ispirazione “sweet‑spicy‑amber”, variante più densa e invernale",
+        similarityEn: "Sweet-spicy-amber inspiration, denser and winter variant",
         priceZara: "Non disponibile",
         priceOriginal: "€ 85,00 (100ml)",
         savings: "N/A",
-        link: "https://www.zara.com/it/it/search?searchTerm=zara%20man%20uomo",
-        zaraImg: "/images/zara/man_uomo.jpg",
+        link: "https://www.zara.com/it/it/search?searchTerm=zara%20man%20uomo%20winter",
+        zaraImg: "/images/zara/man_uomo_winter.jpg",
         originalImg: "/images/originals/one_million.jpg",
-        notes: "Cannella, Note Speziate, Ambra"
+        notes: "Fragola, Vaniglia, Cuoio"
     },
     {
         id: 17,

@@ -166,9 +166,9 @@ function App() {
                 </div>
                 <div className="hero-visual">
                     <div className="comparison-main">
-                        <img src="/images/zara/vibrant_leather.jpg" alt="Vibrant Leather" className="img-zara" />
+                        <img src={`${import.meta.env.BASE_URL}images/zara/vibrant_leather.jpg`} alt="Vibrant Leather" className="img-zara" />
                         <div className="vs">VS</div>
-                        <img src="/images/originals/creed_aventus.png" alt="Creed Aventus" className="img-original" />
+                        <img src={`${import.meta.env.BASE_URL}images/originals/creed_aventus.png`} alt="Creed Aventus" className="img-original" />
                     </div>
                 </div>
             </section>
@@ -179,7 +179,7 @@ function App() {
                     {perfumes.map(p => (
                         <div key={p.id} className="perfume-card">
                             <div className="card-media">
-                                <img src={p.zaraImg} alt={p.name} className="zara-thumb" />
+                                <img src={`${import.meta.env.BASE_URL}${p.zaraImg.substring(1)}`} alt={p.name} className="zara-thumb" />
                                 <div className="media-overlay">
                                     <span className="price-tag">{p.priceZara}</span>
                                 </div>
@@ -192,7 +192,7 @@ function App() {
                                     <span>Equivalente di</span>
                                     <div className="line"></div>
                                 </div>
-                                <img src={p.originalImg} alt={p.original} className="original-thumb" />
+                                <img src={`${import.meta.env.BASE_URL}${p.originalImg.substring(1)}`} alt={p.original} className="original-thumb" />
                                 <h4 className="original-name">{p.original}</h4>
                                 <p className="original-price">Prezzo di Listino: {p.priceOriginal}</p>
                                 <div className="notes">

@@ -114,15 +114,18 @@
     border-radius: 4px;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
     transition: var(--transition);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .img-zara {
-    transform: rotate(-5deg);
+    transform: perspective(1000px) rotate(-5deg) translateZ(0);
     border: 1px solid var(--accent-silver);
 }
 
 .img-original {
-    transform: rotate(5deg);
+    transform: perspective(1000px) rotate(5deg) translateZ(0);
     border: 1px solid var(--accent-gold);
 }
 

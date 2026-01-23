@@ -136,6 +136,17 @@ const perfumes = [
 
 function App() {
     const [scrolled, setScrolled] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(null);
+
+    const openLightbox = (img) => {
+        setSelectedImage(img);
+        document.body.style.overflow = 'hidden'; // Prevent scrolling
+    };
+
+    const closeLightbox = () => {
+        setSelectedImage(null);
+        document.body.style.overflow = 'auto'; // Restore scrolling
+    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -166,9 +177,19 @@ function App() {
                 </div>
                 <div className="hero-visual">
                     <div className="comparison-main">
-                        <img src={`${import.meta.env.BASE_URL}images/zara/vibrant_leather.jpg`} alt="Vibrant Leather" className="img-zara" />
+                        <img 
+                            src={`${import.meta.env.BASE_URL}images/zara/vibrant_leather.jpg`} 
+                            alt="Vibrant Leather" 
+                            className="img-zara clickable-img" 
+                            onClick={() => openLightbox(`${import.meta.env.BASE_URL}images/zara/vibrant_leather.jpg`)}
+                        />
                         <div className="vs">VS</div>
-                        <img src={`${import.meta.env.BASE_URL}images/originals/creed_aventus.png`} alt="Creed Aventus" className="img-original" />
+                        <img 
+                            src={`${import.meta.env.BASE_URL}images/originals/creed_aventus.png`} 
+                            alt="Creed Aventus" 
+                            className="img-original clickable-img" 
+                            onClick={() => openLightbox(`${import.meta.env.BASE_URL}images/originals/creed_aventus.png`)}
+                        />
                     </div>
                 </div>
             </section>
@@ -179,7 +200,12 @@ function App() {
                     {perfumes.map(p => (
                         <div key={p.id} className="perfume-card">
                             <div className="card-media">
-                                <img src={`${import.meta.env.BASE_URL}${p.zaraImg.substring(1)}`} alt={p.name} className="zara-thumb" />
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}${p.zaraImg.substring(1)}`} 
+                                    alt={p.name} 
+                                    className="zara-thumb clickable-img" 
+                                    onClick={() => openLightbox(`${import.meta.env.BASE_URL}${p.zaraImg.substring(1)}`)}
+                                />
                                 <div className="media-overlay">
                                     <span className="price-tag">{p.priceZara}</span>
                                 </div>
@@ -192,7 +218,12 @@ function App() {
                                     <span>Equivalente di</span>
                                     <div className="line"></div>
                                 </div>
-                                <img src={`${import.meta.env.BASE_URL}${p.originalImg.substring(1)}`} alt={p.original} className="original-thumb" />
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}${p.originalImg.substring(1)}`} 
+                                    alt={p.original} 
+                                    className="original-thumb clickable-img" 
+                                    onClick={() => openLightbox(`${import.meta.env.BASE_URL}${p.originalImg.substring(1)}`)}
+                                />
                                 <h4 className="original-name">{p.original}</h4>
                                 <p className="original-price">Prezzo di Listino: {p.priceOriginal}</p>
                                 <div className="notes">
@@ -224,6 +255,15 @@ function App() {
             <footer>
                 <p>© 2026 ScentSense Portal. Sviluppato da Antigravity.</p>
             </footer>
+
+            {selectedImage && (
+                <div className="lightbox-overlay" onClick={closeLightbox}>
+                    <div className="lightbox-content" onClick={e => e.stopPropagation()}>
+                        <button className="lightbox-close" onClick={closeLightbox}>×</button>
+                        <img src={selectedImage} alt="Full view" className="lightbox-img" />
+                    </div>
+                </div>
+            )}
         </div>
     )
 }

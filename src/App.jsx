@@ -2,8 +2,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
-import { perfumes } from './data/perfumes-zara'
-import { lattafaPerfumes } from './data/perfumes-lattafa'
+import perfumes from './data/perfumes-zara.json'
+import lattafaPerfumes from './data/perfumes-lattafa.json'
 
 const translations = {
     it: {
@@ -87,12 +87,13 @@ const translations = {
 };
 
 const PerfumeCard = ({ p, lang, t, cacheBuster, openLightbox }) => (
-    <div key={p.id} className="perfume-card">
+    <div key={p.id} className="perfume-card" role="article" aria-label={`${p.name} - ${t('grid.card.equivalent')} ${p.original}`}>
         <div className="card-media">
             <img
                 src={`${import.meta.env.BASE_URL}${p.zaraImg.startsWith('/') ? p.zaraImg.substring(1) : p.zaraImg}?${cacheBuster}`}
                 alt={p.name}
                 className="zara-thumb clickable-img"
+                loading="lazy"
                 onError={(e) => { e.target.src = `${import.meta.env.BASE_URL}images/placeholder_zara.jpg` }}
                 onClick={() => openLightbox(`${import.meta.env.BASE_URL}${p.zaraImg.startsWith('/') ? p.zaraImg.substring(1) : p.zaraImg}?${cacheBuster}`)}
             />
@@ -131,11 +132,12 @@ const PerfumeCard = ({ p, lang, t, cacheBuster, openLightbox }) => (
                 src={`${import.meta.env.BASE_URL}${p.originalImg.startsWith('/') ? p.originalImg.substring(1) : p.originalImg}?${cacheBuster}`}
                 alt={p.original}
                 className="original-thumb clickable-img"
+                loading="lazy"
                 onError={(e) => { e.target.src = `${import.meta.env.BASE_URL}images/placeholder_original.jpg` }}
                 onClick={() => openLightbox(`${import.meta.env.BASE_URL}${p.originalImg.startsWith('/') ? p.originalImg.substring(1) : p.originalImg}?${cacheBuster}`)}
             />
             <h4 className="original-name">{p.original}</h4>
-            <p className="original-price">{t('grid.card.originalPrice')}: {p.priceOriginal}</p>
+            <span className="price-tag price-tag-original">{p.priceOriginal}</span>
             <div className="notes">
                 {p.notes.split(', ').map((n, i) => <span key={i} className="note-badge">{n}</span>)}
             </div>
@@ -185,6 +187,17 @@ function App() {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
+
+    // Keyboard navigation for lightbox
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (e.key === 'Escape' && selectedImage) {
+                closeLightbox();
+            }
+        };
+        window.addEventListener('keydown', handleKeyDown);
+        return () => window.removeEventListener('keydown', handleKeyDown);
+    }, [selectedImage]);
 
     const sortData = (data, pKey) => [...data].sort((a, b) => {
         let aValue, bValue;
@@ -309,9 +322,9 @@ function App() {
             </footer>
 
             {selectedImage && (
-                <div className="lightbox-overlay" onClick={closeLightbox}>
+                <div className="lightbox-overlay" onClick={closeLightbox} role="dialog" aria-modal="true" aria-label="Image preview">
                     <div className="lightbox-content" onClick={e => e.stopPropagation()}>
-                        <button className="lightbox-close" onClick={closeLightbox}>×</button>
+                        <button className="lightbox-close" onClick={closeLightbox} aria-label="Close image preview">×</button>
                         <img src={selectedImage} alt="Full view" className="lightbox-img" />
                     </div>
                 </div>

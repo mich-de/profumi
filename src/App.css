@@ -164,23 +164,87 @@
     border: 2px solid var(--accent-gold);
     z-index: 5;
     box-shadow: 0 0 30px var(--accent-glow);
+    animation: float 3s ease-in-out infinite, glow 2s ease-in-out infinite;
 }
 
-.btn-primary {
+/* Hero Buttons Container */
+.hero-btns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
     display: inline-block;
     padding: 1.2rem 2.8rem;
-    background: var(--accent-gold);
-    color: var(--bg-dark);
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-radius: 2px;
+    border-radius: 50px;
     transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+/* Primary Button - Solid Gold */
+.btn-primary {
+    background: linear-gradient(135deg, var(--accent-gold), #f4d03f);
+    color: var(--bg-dark);
+    border-color: var(--accent-gold);
+}
+
+.btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: 0.5s;
+}
+
+.btn-primary:hover::before {
+    left: 100%;
 }
 
 .btn-primary:hover {
-    background: var(--text-main);
-    transform: translateY(-5px);
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(212, 175, 55, 0.5);
+}
+
+/* Secondary Button - Outlined */
+.btn-secondary {
+    background: transparent;
+    color: var(--accent-silver);
+    border-color: var(--accent-silver);
+}
+
+.btn-secondary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--accent-silver), #e0e0e0);
+    transition: var(--transition);
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.btn-secondary:hover::before {
+    width: 100%;
+}
+
+.btn-secondary:hover {
+    color: var(--bg-dark);
+    border-color: var(--accent-silver);
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(192, 192, 192, 0.3);
 }
 
 /* Grid Section */
@@ -211,6 +275,21 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
+}
+
+.sticky-sort {
+    position: sticky;
+    top: 80px;
+    z-index: 100;
+    background: rgba(10, 10, 10, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    margin: 0 auto 40px;
+    max-width: max-content;
 }
 
 .sort-label {
@@ -286,11 +365,26 @@
 }
 
 .price-tag {
-    background: var(--bg-dark);
+    background: linear-gradient(90deg, var(--bg-dark), rgba(212, 175, 55, 0.1), var(--bg-dark));
+    background-size: 200% 100%;
     padding: 8px 16px;
     border-radius: 2px;
     font-weight: 800;
     border: 1px solid var(--accent-gold);
+    transition: var(--transition);
+}
+
+.price-tag-original {
+    display: inline-block;
+    margin: 10px auto;
+    background: linear-gradient(90deg, var(--bg-dark), rgba(180, 50, 80, 0.15), var(--bg-dark));
+    border-color: #b43250;
+    color: #e8a0b0;
+    font-size: 0.9rem;
+}
+
+.perfume-card:hover .price-tag {
+    animation: shimmer 1.5s ease-in-out infinite;
 }
 
 .btn-buy {

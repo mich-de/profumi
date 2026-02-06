@@ -125,3 +125,7 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
+remove_backgrounds.py
+rescue_images.py
+update_json_paths.py
+*.py

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "arm-1",
+        "name": "Club de Nuit Intense Man",
+        "brand": "Armaf",
+        "original": "Creed - Aventus",
+        "price": "€ 35,00 - 50,00",
+        "priceOriginal": "€ 295,00",
+        "savings": "85%",
+        "similarity": "È la 'interpretazione Aventus' più famosa di Armaf. Apertura limonosa, drydown affumicato.",
+        "similarityEn": "Armaf's most famous 'Aventus interpretation'. Lemony opening, smoky drydown.",
+        "notes": "Limone, Ribes Nero, Betulla, Muschio",
+        "img": "/images/armaf/cdnim.png",
+        "originalImg": "/images/originals/creed_aventus.png"
+    },
+    {
+        "id": "arm-2",
+        "name": "Club de Nuit Sillage",
+        "brand": "Armaf",
+        "original": "Creed - Silver Mountain Water",
+        "price": "€ 40,00 - 55,00",
+        "priceOriginal": "€ 275,00",
+        "savings": "80%",
+        "similarity": "Fresco metallico-muschiato in stile SMW. Molto persistente e 'freddo'.",
+        "similarityEn": "Fresh metallic-musky SMW style. Very persistent and 'cold'.",
+        "notes": "Ribes Nero, Tè Verde, Muschio, Ambroxan",
+        "img": "/images/armaf/cdnsillage.png",
+        "originalImg": "/images/originals/creed_silver_mountain_water.png"
+    },
+    {
+        "id": "arm-3",
+        "name": "Tres Nuit",
+        "brand": "Armaf",
+        "original": "Creed - Green Irish Tweed",
+        "price": "€ 25,00 - 30,00",
+        "priceOriginal": "€ 275,00",
+        "savings": "90%",
+        "similarity": "Verde aromatico 'GIT vibe'. Fresco, elegante e classico.",
+        "similarityEn": "Green aromatic 'GIT vibe'. Fresh, elegant and classic.",
+        "notes": "Verbena, Iris, Lavanda, Sandalo",
+        "img": "/images/armaf/tres_nuit.png",
+        "originalImg": "/images/originals/creed_green_irish_tweed.png"
+    },
+    {
+        "id": "arm-4",
+        "name": "Club de Nuit Milestone",
+        "brand": "Armaf",
+        "original": "Creed - Millésime Impérial",
+        "price": "€ 35,00 - 50,00",
+        "priceOriginal": "€ 275,00",
+        "savings": "85%",
+        "similarity": "Note marine salate e fruttate (anguria/melone). Spesso discusso clonew di MI.",
+        "similarityEn": "Salty marine notes and fruits (watermelon/melon). Often discussed as a MI clone.",
+        "notes": "Note Marine, Frutti Rossi, Sale, Legni",
+        "img": "/images/armaf/cdn_milestone.png",
+        "originalImg": "/images/originals/creed_millesime_imperial.png"
+    },
+    {
+        "id": "arm-5",
+        "name": "Blue Homme",
+        "brand": "Armaf",
+        "original": "Armani - Acqua di Giò EDT",
+        "price": "€ 19,00 - 23,00",
+        "priceOriginal": "€ 100,00",
+        "savings": "80%",
+        "similarity": "È uno dei cloni ADG più citati; agrumi e aromatiche lo tengono nel solco “fresco marino‑aromatico” classico.",
+        "similarityEn": "One of the most cited ADG clones; citrus and aromatics keep it in the classic 'fresh marine-aromatic' groove.",
+        "notes": "Bergamotto, Limone, Neroli, Rosmarino",
+        "img": "/images/armaf/blue_homme.png",
+        "originalImg": "/images/originals/acqua_di_gio.png"
+    }
+]

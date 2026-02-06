@@ -11,8 +11,8 @@
         "priceOriginal": "€ 350,00 (100ml)",
         "savings": "93%",
         "link": "https://www.zara.com/it/it/sunrise-on-the-red-sand-dunes-edp-100ml---3-4-fl-oz---p20220240.html",
-        "zaraImg": "/images/zara/sunrise_red_sand_dunes.jpg",
-        "originalImg": "/images/originals/lv_imagination.jpg",
+        "zaraImg": "/images/zara/sunrise_red_sand_dunes.png",
+        "originalImg": "/images/originals/lv_imagination.png",
         "notes": "Mandarino, Zenzero, Ambra, Tè Nero"
     },
     {
@@ -27,8 +27,8 @@
         "priceOriginal": "€ 350,00 (100ml)",
         "savings": "92%",
         "link": "https://www.zara.com/it/it/sunrise-on-the-red-sand-dunes-intense-edp-100-ml--3-38-fl--oz--p20220319.html",
-        "zaraImg": "/images/zara/sunrise_red_sand_dunes_intense.jpg",
-        "originalImg": "/images/originals/lv_imagination.jpg",
+        "zaraImg": "/images/zara/sunrise_red_sand_dunes_intense.png",
+        "originalImg": "/images/originals/lv_imagination.png",
         "notes": "Ambra, Balsamico, Agrumi"
     },
     {
@@ -43,7 +43,7 @@
         "priceOriginal": "€ 310,00 (100ml)",
         "savings": "93%",
         "link": "https://www.zara.com/it/it/uomo-profumi-vibrante-l5850.html",
-        "zaraImg": "/images/zara/vibrant_leather.jpg",
+        "zaraImg": "/images/zara/vibrant_leather.png",
         "originalImg": "/images/originals/creed_aventus.png",
         "notes": "Bergamotto, Bambù, Cuoio"
     },
@@ -59,8 +59,8 @@
         "priceOriginal": "€ 135,00 (100ml)",
         "savings": "88%",
         "link": "https://www.zara.com/it/it/navy-black-edt-90ml---3-04-fl-oz---p20210753.html",
-        "zaraImg": "/images/zara/navy_black.jpg",
-        "originalImg": "/images/originals/bleu_de_chanel_new.jpg",
+        "zaraImg": "/images/zara/navy_black.png",
+        "originalImg": "/images/originals/bleu_de_chanel_new.png",
         "notes": "Pompelmo, Salvia, Vetiver"
     },
     {
@@ -75,8 +75,8 @@
         "priceOriginal": "€ 175,00 (50ml)",
         "savings": "85%",
         "link": "https://www.zara.com/it/it/sand-desert-at-sunset-intense-edp-100-ml--3-38-fl--oz--p20220320.html",
-        "zaraImg": "/images/zara/sand_desert_sunset.jpg",
-        "originalImg": "/images/originals/kilian_angels_share.jpg",
+        "zaraImg": "/images/zara/sand_desert_sunset.png",
+        "originalImg": "/images/originals/kilian_angels_share.png",
         "notes": "Cannella, Fava Tonka, Cioccolato, Iris"
     },
     {
@@ -91,8 +91,8 @@
         "priceOriginal": "€ 100,00 (100ml)",
         "savings": "80%",
         "link": "https://www.zara.com/it/it/800-black-edt-90ml---3-04-fl-oz---p20210738.html",
-        "zaraImg": "/images/zara/800_BLACK_EDT.jpg",
-        "originalImg": "/images/originals/valentino_uomo_intense.jpg",
+        "zaraImg": "/images/zara/800_BLACK_EDT.png",
+        "originalImg": "/images/originals/valentino_uomo_intense.png",
         "notes": "Zafferano, Tonka, Vaniglia"
     },
     {
@@ -107,8 +107,8 @@
         "priceOriginal": "€ 365,00 (70ml)",
         "savings": "94%",
         "link": "https://www.zara.com/it/it/for-him-red-edition-edp-90ml--3-38-fl--oz---p20210874.html",
-        "zaraImg": "/images/zara/for_him_red.jpg",
-        "originalImg": "/images/originals/baccarat_rouge.jpg",
+        "zaraImg": "/images/zara/for_him_red.png",
+        "originalImg": "/images/originals/baccarat_rouge.png",
         "notes": "Arancia, Ambra, Evernyl (Muschio)"
     },
     {
@@ -123,8 +123,8 @@
         "priceOriginal": "€ 170,00 (100ml)",
         "savings": "82%",
         "link": "https://www.zara.com/it/it/vetiver-pamplemousse-edp-100ml--3-4-fl-oz---p20110669.html",
-        "zaraImg": "/images/zara/VETIVER.jpg",
-        "originalImg": "/images/originals/Tom_Ford_Grey_Vetiver.webp",
+        "zaraImg": "/images/zara/VETIVER.png",
+        "originalImg": "/images/originals/Tom_Ford_Grey_Vetiver.png",
         "notes": "Pompelmo, Vetiver"
     },
     {
@@ -139,8 +139,8 @@
         "priceOriginal": "€ 170,00 (100ml)",
         "savings": "76%",
         "link": "https://www.zara.com/it/it/vetiver-pamplemousse-elixir-parfum-100-ml--3-4-fl--oz-p20210375.html",
-        "zaraImg": "/images/zara/VETIVER_elixir.jpg",
-        "originalImg": "/images/originals/Tom_Ford_Grey_Vetiver.webp",
+        "zaraImg": "/images/zara/VETIVER_elixir.png",
+        "originalImg": "/images/originals/Tom_Ford_Grey_Vetiver.png",
         "notes": "Vetiver, Agrumi scuri"
     },
     {
@@ -155,7 +155,7 @@
         "priceOriginal": "€ 165,00 (50ml)",
         "savings": "76%",
         "link": "https://www.zara.com/it/it/ebony-wood-elixir-parfum-100ml--3-4-fl--oz--p20210318.html",
-        "zaraImg": "/images/zara/ebony_wood.jpg",
+        "zaraImg": "/images/zara/ebony_wood.png",
         "originalImg": "/images/originals/wood_sage.png",
         "notes": "Legni, Note pulite, Fumé"
     },
@@ -171,8 +171,8 @@
         "priceOriginal": "Discontinuato",
         "savings": "N/A",
         "link": "https://www.zara.com/it/it/salty-ocean-bouquet-edp-100ml--3-4-fl--oz---p20110803.html",
-        "zaraImg": "/images/zara/salty_ocean.jpg",
-        "originalImg": "/images/originals/Calvin_Klein_CK2.jpg",
+        "zaraImg": "/images/zara/salty_ocean.png",
+        "originalImg": "/images/originals/Calvin_Klein_CK2.png",
         "notes": "Sale, Pepe, Note Marine"
     },
     {
@@ -187,8 +187,8 @@
         "priceOriginal": "€ 100,00 (100ml)",
         "savings": "80%",
         "link": "https://www.zara.com/it/it/search?searchTerm=night%20pour%20homme%20ii%20infinite",
-        "zaraImg": "/images/zara/night_pour_homme_ii_infinite.jpg",
-        "originalImg": "/images/originals/Dior_Sauvage_EDT.webp",
+        "zaraImg": "/images/zara/night_pour_homme_ii_infinite.png",
+        "originalImg": "/images/originals/Dior_Sauvage_EDT.png",
         "notes": "Agrumi, Ambroxan, Spezie"
     },
     {
@@ -203,8 +203,8 @@
         "priceOriginal": "€ 100,00 (100ml)",
         "savings": "N/A",
         "link": "https://www.zara.com/it/it/search?searchTerm=aromatic%20future",
-        "zaraImg": "/images/zara/Aromatic_Future_Scent_2.jpg",
-        "originalImg": "/images/originals/Dior_Sauvage_EDT.webp",
+        "zaraImg": "/images/zara/Aromatic_Future_Scent_2.png",
+        "originalImg": "/images/originals/Dior_Sauvage_EDT.png",
         "notes": "Ambroxan, Pepe"
     },
     {
@@ -219,8 +219,8 @@
         "priceOriginal": "€ 110,00 (100ml)",
         "savings": "N/A",
         "link": "https://www.zara.com/it/it/search?searchTerm=blueshape",
-        "zaraImg": "/images/zara/blueshape.jpg",
-        "originalImg": "/images/originals/fahrenheit.jpg",
+        "zaraImg": "/images/zara/blueshape.png",
+        "originalImg": "/images/originals/fahrenheit.png",
         "notes": "Mandarino, Violetta, Cuoio"
     },
     {
@@ -235,8 +235,8 @@
         "priceOriginal": "€ 121,00 (90ml)",
         "savings": "88%",
         "link": "https://www.zara.com/it/it/search?searchTerm=man%20silver",
-        "zaraImg": "/images/zara/man_silver.jpg",
-        "originalImg": "/images/originals/gucci_guilty_new.jpg",
+        "zaraImg": "/images/zara/man_silver.png",
+        "originalImg": "/images/originals/gucci_guilty_new.png",
         "notes": "Limone, Lavanda, Patchouli"
     },
     {
@@ -251,8 +251,8 @@
         "priceOriginal": "€ 85,00 (100ml)",
         "savings": "N/A",
         "link": "https://www.zara.com/it/it/search?searchTerm=zara%20man%20uomo%20winter",
-        "zaraImg": "/images/zara/man_uomo_winter.jpg",
-        "originalImg": "/images/originals/one_million.jpg",
+        "zaraImg": "/images/zara/man_uomo_winter.png",
+        "originalImg": "/images/originals/one_million.png",
         "notes": "Fragola, Vaniglia, Cuoio"
     },
     {
@@ -261,14 +261,14 @@
         "format": "EDT 100 ml",
         "original": "Armani - Acqua di Giò EDT",
         "gender": "Uomo",
-        "similarity": "Dupe acquatico classico, molto citato",
-        "similarityEn": "Classic aquatic dupe, widely cited",
+        "similarity": "In video e thread viene spesso chiamato “clone”/molto vicino ad ADG (performance mediamente “ok”)",
+        "similarityEn": "Often called 'clone'/very close to ADG in videos and threads (performance averages 'ok')",
         "priceZara": "€ 15,95",
         "priceOriginal": "€ 100,00 (100ml)",
         "savings": "84%",
         "link": "https://www.zara.com/it/it/search?searchTerm=lisboa",
-        "zaraImg": "/images/zara/lisboa.jpg",
-        "originalImg": "/images/originals/acqua_di_gio.jpg",
+        "zaraImg": "/images/zara/lisboa.png",
+        "originalImg": "/images/originals/acqua_di_gio.png",
         "notes": "Limone, Note Acquatiche, Muschio"
     },
     {
@@ -283,8 +283,8 @@
         "priceOriginal": "€ 80,00 (100ml)",
         "savings": "80%",
         "link": "https://www.zara.com/it/it/search?searchTerm=blue%20spirit",
-        "zaraImg": "/images/zara/blue_spirit.jpg",
-        "originalImg": "/images/originals/invictus_new.jpg",
+        "zaraImg": "/images/zara/blue_spirit.png",
+        "originalImg": "/images/originals/invictus_new.png",
         "notes": "Note Marine, Mandarino, Ylang-Ylang"
     },
     {
@@ -299,8 +299,8 @@
         "priceOriginal": "€ 85,00 (100ml)",
         "savings": "N/A",
         "link": "https://www.zara.com/it/it/search?searchTerm=lasting%20desire",
-        "zaraImg": "/images/zara/lasting_desire.jpg",
-        "originalImg": "/images/originals/invictus_new.jpg",
+        "zaraImg": "/images/zara/lasting_desire.png",
+        "originalImg": "/images/originals/invictus_new.png",
         "notes": "Cacao, Bergamotto, Limone, Lavanda"
     },
     {
@@ -315,8 +315,8 @@
         "priceOriginal": "€ 285,00 (100ml)",
         "savings": "87%",
         "link": "https://www.zara.com/it/it/energetically-new-york-edp-100ml--3-4-fl--oz---p20110710.html?v1=495716272",
-        "zaraImg": "/images/zara/ENERGETICALLY_NEW_YORK_EDP.jpg",
-        "originalImg": "/images/originals/santal_33.jpg",
+        "zaraImg": "/images/zara/ENERGETICALLY_NEW_YORK_EDP.png",
+        "originalImg": "/images/originals/santal_33.png",
         "notes": "Sandalo, Cardamomo, Gelsomino"
     },
     {
@@ -331,8 +331,8 @@
         "priceOriginal": "€ 245,00 (100ml)",
         "savings": "91%",
         "link": "https://www.zara.com/it/it/search?searchTerm=tender%20amber",
-        "zaraImg": "/images/zara/tender_amber.jpg",
-        "originalImg": "/images/originals/erba_pura.jpg",
+        "zaraImg": "/images/zara/tender_amber.png",
+        "originalImg": "/images/originals/erba_pura.png",
         "notes": "Frutti Esotici, Ambra, Muschio"
     },
     {
@@ -347,7 +347,7 @@
         "priceOriginal": "€ 150,00 (100ml)",
         "savings": "76%",
         "link": "https://www.zara.com/it/it/search?searchTerm=ebony%20wood",
-        "zaraImg": "/images/zara/ebony_wood.jpg",
+        "zaraImg": "/images/zara/ebony_wood.png",
         "originalImg": "/images/originals/wood_sage.png",
         "notes": "Ebano, Pepe Rosa, Chiodi di Garofano"
     },
@@ -363,8 +363,8 @@
         "priceOriginal": "€ 355,00 (100ml)",
         "savings": "95%",
         "link": "https://www.zara.com/it/it/search?searchTerm=tobacco%20rich%20warm%20addictive",
-        "zaraImg": "/images/zara/tobacco_rwa.jpg",
-        "originalImg": "/images/originals/tobacco_vanille_new.jpg",
+        "zaraImg": "/images/zara/tobacco_rwa.png",
+        "originalImg": "/images/originals/tobacco_vanille_new.png",
         "notes": "Rum, Peonia, Vaniglia Bourbon"
     },
     {
@@ -379,8 +379,8 @@
         "priceOriginal": "€ 155,00 (100ml)",
         "savings": "85%",
         "link": "https://www.zara.com/it/it/search?searchTerm=regal%20white",
-        "zaraImg": "/images/zara/regal_white.jpg",
-        "originalImg": "/images/originals/fat_electrician.jpg",
+        "zaraImg": "/images/zara/regal_white.png",
+        "originalImg": "/images/originals/fat_electrician.png",
         "notes": "Vetiver, Acqua di Cocco, Fico"
     },
     {
@@ -395,8 +395,8 @@
         "priceOriginal": "€ 149,00 (100ml)",
         "savings": "84%",
         "link": "https://www.zara.com/it/it/search?searchTerm=imperial%20purple",
-        "zaraImg": "/images/zara/imperial_purple.jpg",
-        "originalImg": "/images/originals/valentino_uomo_intense.jpg",
+        "zaraImg": "/images/zara/imperial_purple.png",
+        "originalImg": "/images/originals/valentino_uomo_intense.png",
         "notes": "Iris, Cuoio, Pralina"
     }
 ]

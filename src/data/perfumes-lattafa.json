@@ -10,8 +10,8 @@
         "similarity": "Una bomba speziata di pepe nero, tabacco e vaniglia. Meno metallico e lavandato del Dior, ma più dolce nel dry-down.",
         "similarityEn": "A spicy bomb of black pepper, tobacco and vanilla. Less metallic and lavendary than Dior, but sweeter in the dry-down.",
         "notes": "Pepe Nero, Tabacco, Vaniglia",
-        "lattafaImg": "/images/lattafa/asad.jpg",
-        "originalImg": "/images/originals/sauvage_elixir.jpg"
+        "lattafaImg": "/images/lattafa/asad.png",
+        "originalImg": "/images/originals/sauvage_elixir.png"
     },
     {
         "id": "lat-2",
@@ -24,8 +24,8 @@
         "similarity": "Un gourmand invernale caldo e avvolgente. Sostituisce la nota di cognac con datteri caramellati, cannella e praline.",
         "similarityEn": "A warm and enveloping winter gourmand. Replaces the cognac note with caramelized dates, cinnamon and pralines.",
         "notes": "Datteri, Cannella, Praline, Vaniglia",
-        "lattafaImg": "/images/lattafa/khamrah.jpg",
-        "originalImg": "/images/originals/kilian_angels_share.jpg"
+        "lattafaImg": "/images/lattafa/khamrah.png",
+        "originalImg": "/images/originals/kilian_angels_share.png"
     },
     {
         "id": "lat-3",
@@ -38,8 +38,8 @@
         "similarity": "Oud moderno, scuro e mistico. Un mix potente di oud, zafferano e noce moscata. Più dolce e affumicato.",
         "similarityEn": "Modern, dark and mystical oud. A powerful mix of oud, saffron and nutmeg. Sweeter and smokier.",
         "notes": "Oud, Zafferano, Noce Moscata",
-        "lattafaImg": "/images/lattafa/oud_for_glory.jpg",
-        "originalImg": "/images/originals/oud_for_greatness.jpg"
+        "lattafaImg": "/images/lattafa/oud_for_glory.png",
+        "originalImg": "/images/originals/oud_for_greatness.png"
     },
     {
         "id": "lat-4",
@@ -52,8 +52,8 @@
         "similarity": "Il profumo versatile per eccellenza. Fresco e aromatico. Perfetto per l'ufficio e l'uso quotidiano.",
         "similarityEn": "The ultimate versatile perfume. Fresh and aromatic. Perfect for the office and daily use.",
         "notes": "Mela, Zenzero, Salvia, Bergamotto",
-        "lattafaImg": "/images/lattafa/fakhar_black.jpg",
-        "originalImg": "/images/originals/ysl_y_edp.jpg"
+        "lattafaImg": "/images/lattafa/fakhar_black.png",
+        "originalImg": "/images/originals/ysl_y_edp.png"
     },
     {
         "id": "lat-5",
@@ -66,8 +66,8 @@
         "similarity": "Una freschezza 'frizzante' che ricorda una bibita ghiacciata al lime e menta. Ideale per l'estate torrida.",
         "similarityEn": "A 'sparkling' freshness reminiscent of an iced lime and mint drink. Ideal for scorching summer.",
         "notes": "Menta, Lime, Pompelmo",
-        "lattafaImg": "/images/lattafa/maahir_legacy.jpg",
-        "originalImg": "/images/originals/pdm_sedley.jpg"
+        "lattafaImg": "/images/lattafa/maahir_legacy.png",
+        "originalImg": "/images/originals/pdm_sedley.png"
     },
     {
         "id": "lat-6",
@@ -80,8 +80,8 @@
         "similarity": "Raffinato, cremoso e 'cozy'. Un mix unico di fico, tè nero e cardamomo. Evoca un maglione di cashmere.",
         "similarityEn": "Refined, creamy and 'cozy'. A unique mix of fig, black tea and cardamom. Evokes a cashmere sweater.",
         "notes": "Fico, Tè Nero, Cardamomo, Sandalo",
-        "lattafaImg": "/images/lattafa/liam_grey.jpg",
-        "originalImg": "/images/originals/bdk_gris_charnel.jpg"
+        "lattafaImg": "/images/lattafa/liam_grey.png",
+        "originalImg": "/images/originals/bdk_gris_charnel.png"
     },
     {
         "id": "lat-7",
@@ -94,8 +94,8 @@
         "similarity": "Acquatico profondo e aromatico. Cattura l'essenza del mare blu scuro dell'Armani.",
         "similarityEn": "Deep and aromatic aquatic. Captures the essence of the dark blue sea of Armani.",
         "notes": "Note Marine, Rosmarino, Bergamotto, Patchouli",
-        "lattafaImg": "/images/lattafa/liam_blue_shine.jpg",
-        "originalImg": "/images/originals/adg_profondo.jpg"
+        "lattafaImg": "/images/lattafa/liam_blue_shine.png",
+        "originalImg": "/images/originals/adg_profondo.png"
     },
     {
         "id": "lat-8",
@@ -108,8 +108,8 @@
         "similarity": "Un profumo terapeutico e calmante. Protagonisti la prugna succosa e il palo santo aromatico.",
         "similarityEn": "A therapeutic and calming perfume. Juicy plum and aromatic palo santo are the main characters.",
         "notes": "Prugna, Palo Santo, Lavanda",
-        "lattafaImg": "/images/lattafa/vintage_radio.jpg",
-        "originalImg": "/images/originals/initio_paragon.jpg"
+        "lattafaImg": "/images/lattafa/vintage_radio.png",
+        "originalImg": "/images/originals/initio_paragon.png"
     },
     {
         "id": "lat-9",
@@ -122,8 +122,8 @@
         "similarity": "Marino 'nucleare'. Potentissimo e persistente. Note di alghe, sale e oceano profondo.",
         "similarityEn": "Nuclear marine. Extremely powerful and persistent. Notes of seaweed, salt and deep ocean.",
         "notes": "Alghe, Sale, Note Marine, Muschio",
-        "lattafaImg": "/images/lattafa/atlas.jpg",
-        "originalImg": "/images/originals/megamare.jpg"
+        "lattafaImg": "/images/lattafa/atlas.png",
+        "originalImg": "/images/originals/megamare.png"
     },
     {
         "id": "lat-10",
@@ -136,8 +136,8 @@
         "similarity": "Agrumato lussuoso e pulito. Fresco ma sofisticato, evoca la 'pulizia costosa'.",
         "similarityEn": "Luxurious and clean citrus. Fresh but sophisticated, evokes 'expensive cleanliness'.",
         "notes": "Tè Nero, Zenzero, Neroli, Ambroxan",
-        "lattafaImg": "/images/lattafa/art_of_arabia_1.jpg",
-        "originalImg": "/images/originals/lv_imagination.jpg"
+        "lattafaImg": "/images/lattafa/art_of_arabia_1.png",
+        "originalImg": "/images/originals/lv_imagination.png"
     },
     {
         "id": "lat-11",
@@ -150,8 +150,8 @@
         "similarity": "Gourmand fotorealistico. Profuma di caramello, latte caldo, miele e vaniglia. Dolcezza estrema.",
         "similarityEn": "Photorealistic gourmand. Smells of caramel, warm milk, honey and vanilla. Extreme sweetness.",
         "notes": "Caramello, Latte, Miele, Vaniglia",
-        "lattafaImg": "/images/lattafa/eclaire.jpg",
-        "originalImg": "/images/originals/bianco_latte.jpg"
+        "lattafaImg": "/images/lattafa/eclaire.png",
+        "originalImg": "/images/originals/bianco_latte.png"
     },
     {
         "id": "lat-12",
@@ -164,8 +164,8 @@
         "similarity": "Evoca un camino acceso. Caldo, affumicato e perfetto per le serate invernali.",
         "similarityEn": "Evokes a lit fireplace. Warm, smoky and perfect for winter evenings.",
         "notes": "Legno Bruciato, Zucchero Filato, Vaniglia",
-        "lattafaImg": "/images/lattafa/ameer_al_oudh.jpg",
-        "originalImg": "/images/originals/by_the_fireplace.jpg"
+        "lattafaImg": "/images/lattafa/ameer_al_oudh.png",
+        "originalImg": "/images/originals/by_the_fireplace.png"
     },
     {
         "id": "lat-13",
@@ -178,8 +178,8 @@
         "similarity": "Il re delle feste. Dolce, fruttato e vanigliato. Giovanile e 'bubblegum'.",
         "similarityEn": "The king of parties. Sweet, fruity and vanilla. Youthful and 'bubblegum'.",
         "notes": "Pera, Vaniglia, Note Dolci",
-        "lattafaImg": "/images/lattafa/ramz_silver.jpg",
-        "originalImg": "/images/originals/ultra_male.jpg"
+        "lattafaImg": "/images/lattafa/ramz_silver.png",
+        "originalImg": "/images/originals/ultra_male.png"
     },
     {
         "id": "lat-14",
@@ -192,8 +192,8 @@
         "similarity": "Cardamomo fresco ed elettrico. Sostituisce perfettamente la versione introvabile di YSL.",
         "similarityEn": "Fresh and electric cardamom. Perfectly replaces the hard-to-find YSL version.",
         "notes": "Cardamomo, Lavanda, Zenzero, Geranio",
-        "lattafaImg": "/images/lattafa/al_nashama_caprice.jpg",
-        "originalImg": "/images/originals/bleu_electrique.jpg"
+        "lattafaImg": "/images/lattafa/al_nashama_caprice.png",
+        "originalImg": "/images/originals/bleu_electrique.png"
     },
     {
         "id": "lat-15",
@@ -206,8 +206,8 @@
         "similarity": "Cremoso, esotico e lussuoso. Una fragranza solare e avvolgente con una bottiglia particolare.",
         "similarityEn": "Creamy, exotic and luxurious. A solar and enveloping fragrance with a unique bottle.",
         "notes": "Cocco, Ylang-Ylang, Sandalo, Agrumi",
-        "lattafaImg": "/images/lattafa/musamam_white.jpg",
-        "originalImg": "/images/originals/stellar_times.jpg"
+        "lattafaImg": "/images/lattafa/musamam_white.png",
+        "originalImg": "/images/originals/stellar_times.png"
     },
     {
         "id": "lat-16",
@@ -220,8 +220,8 @@
         "similarity": "Un gourmand speziato unico. Apertura di ananas bruciato (crème brûlée) molto cremosa.",
         "similarityEn": "A unique spicy gourmand. Very creamy burnt pineapple (crème brûlée) opening.",
         "notes": "Ananas Bruciato, Curcuma, Cannella, Vaniglia",
-        "lattafaImg": "/images/lattafa/honor_glory.jpg",
-        "originalImg": "/images/originals/nishane_ani.jpg"
+        "lattafaImg": "/images/lattafa/honor_glory.png",
+        "originalImg": "/images/originals/nishane_ani.png"
     },
     {
         "id": "lat-17",
@@ -234,7 +234,217 @@
         "similarity": "Mix moderno di agrumi, pera e muschio. Firma olfattiva 'nicchia' e moderna.",
         "similarityEn": "Modern mix of citrus, pear and musk. A modern 'niche' olfactory signature.",
         "notes": "Agrumi, Pera, Muschio, Note Legnose",
-        "lattafaImg": "/images/lattafa/art_of_universe.jpg",
-        "originalImg": "/images/originals/blue_talisman.jpg"
+        "lattafaImg": "/images/lattafa/art_of_universe.png",
+        "originalImg": "/images/originals/blue_talisman.png"
+    },
+    {
+        "id": "lat-18",
+        "name": "Kismet Angel (Magic)",
+        "brand": "Maison Alhambra",
+        "original": "Kilian - Angels' Share",
+        "priceLattafa": "€ 25,00 - 35,00",
+        "priceOriginal": "€ 225,00 (50ml)",
+        "savings": "85%",
+        "similarity": "Tra i più nominati quando si cerca Angels’ Share low-cost.",
+        "similarityEn": "One of the most mentioned when looking for a low-cost Angels' Share.",
+        "notes": "Cognac, Cannella, Fava Tonka, Pralina",
+        "lattafaImg": "/images/lattafa/kismet_angel.png",
+        "originalImg": "/images/originals/kilian_angels_share.png"
+    },
+    {
+        "id": "lat-19",
+        "name": "Nasheet",
+        "brand": "Lattafa",
+        "original": "Nishane - Ani",
+        "priceLattafa": "€ 20,00 - 30,00",
+        "priceOriginal": "€ 215,00 (50ml)",
+        "savings": "90%",
+        "similarity": "Vanigliato-speziato 'Ani style'. Molto vicino all'originale nel drydown.",
+        "similarityEn": "Vanilla-spicy 'Ani style'. Very close to the original in the drydown.",
+        "notes": "Legno di Guaiaco, Noce Moscata, Sandalo",
+        "lattafaImg": "/images/lattafa/nasheet.png",
+        "originalImg": "/images/originals/nishane_ani.png"
+    },
+    {
+        "id": "lat-20",
+        "name": "Al Qiam Silver",
+        "brand": "Lattafa",
+        "original": "Bvlgari - Tygar",
+        "priceLattafa": "€ 30,00 - 45,00",
+        "priceOriginal": "€ 340,00 (100ml)",
+        "savings": "90%",
+        "similarity": "DNA agrumato-ambroxan (stile Tygar). Freschissimo e lussuoso.",
+        "similarityEn": "Citrus-ambroxan DNA (Tygar style). Extremely fresh and luxurious.",
+        "notes": "Pompelmo, Zenzero, Ambroxan",
+        "lattafaImg": "/images/lattafa/al_qiam_silver.png",
+        "originalImg": "/images/originals/bvlgari_tygar.png"
+    },
+    {
+        "id": "lat-21",
+        "name": "Salvo Intense",
+        "brand": "Maison Alhambra",
+        "original": "Dior - Sauvage EDP",
+        "priceLattafa": "€ 20,00 - 30,00",
+        "priceOriginal": "€ 100,00 (100ml)",
+        "savings": "75%",
+        "similarity": "Uno dei 'Sauvage style' più noti del brand. Speziato e versatile.",
+        "similarityEn": "One of the brand's most famous 'Sauvage style' scents. Spicy and versatile.",
+        "notes": "Bergamotto, Pepe Sichuan, Lavanda",
+        "lattafaImg": "/images/lattafa/salvo.png",
+        "originalImg": "/images/originals/Dior_Sauvage_EDT.png"
+    },
+    {
+        "id": "lat-22",
+        "name": "Salvo Elixir",
+        "brand": "Maison Alhambra",
+        "original": "Dior - Sauvage Elixir",
+        "priceLattafa": "€ 25,00 - 35,00",
+        "priceOriginal": "€ 160,00 (60ml)",
+        "savings": "80%",
+        "similarity": "Alternativa in stile Elixir. Potente, speziato e denso.",
+        "similarityEn": "Elixir style alternative. Powerful, spicy and dense.",
+        "notes": "Cannella, Noce Moscata, Cardamomo",
+        "lattafaImg": "/images/lattafa/salvo_elixir.png",
+        "originalImg": "/images/originals/sauvage_elixir.png"
+    },
+    {
+        "id": "lat-23",
+        "name": "Yeah!",
+        "brand": "Maison Alhambra",
+        "original": "Yves Saint Laurent - Y EDP",
+        "priceLattafa": "€ 20,00 - 30,00",
+        "priceOriginal": "€ 110,00",
+        "savings": "75%",
+        "similarity": "Fresco aromatico 'Y vibe'. Mela e zenzero dominanti.",
+        "similarityEn": "Fresh aromatic 'Y vibe'. Dominant apple and ginger.",
+        "notes": "Mela, Zenzero, Salvia",
+        "lattafaImg": "/images/lattafa/yeah.png",
+        "originalImg": "/images/originals/ysl_y_edp.png"
+    },
+    {
+        "id": "lat-24",
+        "name": "Victorioso",
+        "brand": "Maison Alhambra",
+        "original": "Rabanne - Invictus",
+        "priceLattafa": "€ 20,00 - 25,00",
+        "priceOriginal": "€ 90,00",
+        "savings": "75%",
+        "similarity": "Sportivo dolce-fresco. Il classico profumo da palestra o 'dumb reach'.",
+        "similarityEn": "Sweet-fresh sporty. The classic gym scent or 'dumb reach'.",
+        "notes": "Note Marine, Pompelmo, Alloro",
+        "lattafaImg": "/images/lattafa/victorioso.png",
+        "originalImg": "/images/originals/invictus.png"
+    },
+    {
+        "id": "lat-25",
+        "name": "Victorioso Victory",
+        "brand": "Maison Alhambra",
+        "original": "Rabanne - Invictus Victory",
+        "priceLattafa": "€ 20,00 - 30,00",
+        "priceOriginal": "€ 100,00",
+        "savings": "75%",
+        "similarity": "Più dolce/gourmand rispetto al Victorioso base. Vaniglia e ambra.",
+        "similarityEn": "Sweeter/gourmand than the base Victorioso. Vanilla and amber.",
+        "notes": "Vaniglia, Ambra, Pepe Rosa",
+        "lattafaImg": "/images/lattafa/victorioso_victory.png",
+        "originalImg": "/images/originals/invictus_victory.png"
+    },
+    {
+        "id": "lat-26",
+        "name": "The Tux",
+        "brand": "Maison Alhambra",
+        "original": "YSL - Tuxedo",
+        "priceLattafa": "€ 40,00 - 60,00",
+        "priceOriginal": "€ 250,00",
+        "savings": "80%",
+        "similarity": "Uno dei dupe più ricercati in stile 'tuxedo/patchouli-amber'. Molto elegante.",
+        "similarityEn": "One of the most sought-after 'tuxedo/patchouli-amber' style dupes. Very elegant.",
+        "notes": "Patchouli, Ambra Grigia, Pepe Nero",
+        "lattafaImg": "/images/lattafa/the_tux.png",
+        "originalImg": "/images/originals/ysl_tuxedo.png"
+    },
+    {
+        "id": "lat-27",
+        "name": "Your Touch",
+        "brand": "Maison Alhambra",
+        "original": "Armani - Stronger With You",
+        "priceLattafa": "€ 20,00 - 30,00",
+        "priceOriginal": "€ 90,00",
+        "savings": "70%",
+        "similarity": "Dolce ambrato 'date night'. Castagna glassata e vaniglia.",
+        "similarityEn": "Sweet amber 'date night'. Glazed chestnut and vanilla.",
+        "notes": "Cardamomo, Pepe Rosa, Note Ambrate",
+        "lattafaImg": "/images/lattafa/your_touch.png",
+        "originalImg": "/images/originals/stronger_with_you.png"
+    },
+    {
+        "id": "lat-28",
+        "name": "Tobacco Touch",
+        "brand": "Maison Alhambra",
+        "original": "Tom Ford - Tobacco Vanille",
+        "priceLattafa": "€ 25,00 - 35,00",
+        "priceOriginal": "€ 260,00",
+        "savings": "90%",
+        "similarity": "Molto citato come dupe 'spot on' in community. Tabacco dolce e speziato.",
+        "similarityEn": "Frequently cited as a 'spot on' dupe in the community. Sweet and spicy tobacco.",
+        "notes": "Tabacco, Vaniglia, Spezie, Cacao",
+        "lattafaImg": "/images/lattafa/tobacco_touch.png",
+        "originalImg": "/images/originals/tobacco_vanille_new.png"
+    },
+    {
+        "id": "lat-29",
+        "name": "Amber & Leather",
+        "brand": "Maison Alhambra",
+        "original": "Tom Ford - Ombré Leather",
+        "priceLattafa": "€ 20,00 - 30,00",
+        "priceOriginal": "€ 170,00",
+        "savings": "85%",
+        "similarity": "Cuoiato moderno, 'Ombre Leather style'. Meno aspro del Tuscan.",
+        "similarityEn": "Modern leather, 'Ombre Leather style'. Less harsh than Tuscan.",
+        "notes": "Cuoio, Gelsomino, Ambra",
+        "lattafaImg": "/images/lattafa/amber_leather.png",
+        "originalImg": "/images/originals/ombre_leather.png"
+    },
+    {
+        "id": "lat-30",
+        "name": "Toscano Leather",
+        "brand": "Maison Alhambra",
+        "original": "Tom Ford - Tuscan Leather",
+        "priceLattafa": "€ 25,00 - 35,00",
+        "priceOriginal": "€ 260,00",
+        "savings": "85%",
+        "similarity": "Cuoio-fruttato stile Tuscan Leather. Lampone e cuoio grezzo.",
+        "similarityEn": "Tuscan Leather style fruity-leather. Raspberry and raw leather.",
+        "notes": "Cuoio, Lampone, Zafferano",
+        "lattafaImg": "/images/lattafa/toscano_leather.png",
+        "originalImg": "/images/originals/tuscan_leather.png"
+    },
+    {
+        "id": "lat-31",
+        "name": "Leyden",
+        "brand": "Maison Alhambra",
+        "original": "Parfums de Marly - Layton",
+        "priceLattafa": "€ 25,00 - 35,00",
+        "priceOriginal": "€ 240,00",
+        "savings": "85%",
+        "similarity": "Speziato dolce 'Layton DNA'. Mela, vaniglia e cardamomo.",
+        "similarityEn": "Spicy sweet 'Layton DNA'. Apple, vanilla and cardamom.",
+        "notes": "Mela, Vaniglia, Cardamomo",
+        "lattafaImg": "/images/lattafa/leyden.png",
+        "originalImg": "/images/originals/layton.png"
+    },
+    {
+        "id": "lat-32",
+        "name": "Dark Door Intense",
+        "brand": "Maison Alhambra",
+        "original": "Dior - Homme Intense",
+        "priceLattafa": "€ 20,00 - 30,00",
+        "priceOriginal": "€ 120,00",
+        "savings": "80%",
+        "similarity": "Iris/legnoso in stile DHI. Talcato, elegante e notturno.",
+        "similarityEn": "Iris/woody DHI style. Powdery, elegant and nocturnal.",
+        "notes": "Iris, Lavanda, Ambra, Cedro",
+        "lattafaImg": "/images/lattafa/dark_door_intense.png",
+        "originalImg": "/images/originals/dior_homme_intense.png"
     }
 ]
